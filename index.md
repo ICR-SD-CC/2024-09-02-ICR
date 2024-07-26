@@ -418,7 +418,7 @@ please preview your site before committing, and make sure to run
   Library Carpentry
   {% endif %}
   workshop,
-  you will need access to software as described below.
+  you will need access to software and data as described below.
   In addition, you will need an up-to-date web browser.
 </p>
 <p>

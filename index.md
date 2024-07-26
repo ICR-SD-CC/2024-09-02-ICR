@@ -427,6 +427,12 @@ please preview your site before committing, and make sure to run
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
 
+<p>
+Please check the "Setup" page of
+<a href="{{site.incubator_lesson_site}}">the lesson homepage</a> for instructions to follow
+to obtain the software and data you will need to follow the lesson.
+</p>
+
 {% comment %}
 For online workshops, the section below provides:
 - installation instructions for the Zoom client
@@ -457,8 +463,4 @@ Please check the "Setup" page of
 <a href="{{site.incubator_lesson_site}}">the lesson homepage</a> for instructions to follow
 to obtain the software and data you will need to follow the lesson.
 {% endif %}
-<p>
-Please check the "Setup" page of
-<a href="{{site.incubator_lesson_site}}">the lesson homepage</a> for instructions to follow
-to obtain the software and data you will need to follow the lesson.
-</p>
+

@@ -9,7 +9,7 @@ country: "uk"
 language: "en"
 latitude: "51"        # Sutton and Chelsea = 51/0
 longitude: "0"
-humandate: "Sep 02, 2024"
+humandate: "Mon Sep 02, 2024"
 humantime: "9:00 am - 5:00 pm"
 startdate: 2024-09-02
 enddate: 2024-09-02

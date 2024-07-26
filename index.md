@@ -427,10 +427,11 @@ please preview your site before committing, and make sure to run
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
 
+<h3>Data</h3>
 <p>
-Please check the "Setup" page of
-<a href="{{site.incubator_lesson_site}}">the lesson homepage</a> for instructions to follow
-to obtain the software and data you will need to follow the lesson.
+Please check the "Getting the Data section of" page of
+<a href="https://swcarpentry.github.io/python-novice-gapminder/index.html#getting-the-data">the lesson homepage</a> for instructions to follow
+to obtain the data you will need to follow the lesson.
 </p>
 
 {% comment %}

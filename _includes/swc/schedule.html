@@ -3,7 +3,15 @@
 
 <div class="row">
        <table class="table table-striped">  
-       <tr><td>09:00-09:15</td><td>
+     
+</table>
+</div>
+
+<div class="row">
+  <div class="col-md-6">
+    <h3>Morning</h3>
+    <table class="table table-striped">          
+      <tr><td>09:00-09:15</td><td>
             <a href="#setup">Setup Instructions</a> + 
             <a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank" rel="noopener noreferrer">Pre-workshop survey</a>
       </td><td>Setup, ensure everything works, fill out survey</td></tr>
@@ -28,39 +36,7 @@
       <tr><td>16:05-16:25</td><td>18. <a href="https://swcarpentry.github.io/python-novice-gapminder/18-style.html">Programming Style</a></td><td>How can I make my programs more readable?<br>How do most programmers format their code?<br>How can programs check their own operation?</td></tr>
       <tr><td>16:25-16:45</td><td>19. <a href="https://swcarpentry.github.io/python-novice-gapminder/19-wrap.html">Wrap-Up</a></td><td>What have we learned?<br>What else is out there and where do I find it?</td></tr>
       <tr><td>16:45</td><td>20. <a href="https://swcarpentry.github.io/python-novice-gapminder/20-feedback.html"><a href="{{ site.post_survey }}{{ site.github.project_title }}" target="_blank" rel="noopener noreferrer">Post-workshop Survey</a></a></td><td>How did the class go?</td></tr>
-</table>
-</div>
-
-<div class="row">
-  <div class="col-md-6">
-    <h3>Morning</h3>
-    <table class="table table-striped">          
     
-     <tr><td>09:00-09:15</td><td>
-            <a href="#setup">Setup Instructions</a> + 
-            <a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank" rel="noopener noreferrer">Pre-workshop survey</a>
-      </td><td>Setup, ensure everything works, fill out survey</td></tr>
-      <tr><td>09:15-09:30</td><td> 1. <a href="https://swcarpentry.github.io/python-novice-gapminder/01-run-quit.html">Running and Quitting</a></td><td>How can I run Python programs?</td></tr>
-
-          
-          <tr> <td>Before</td> <td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank" rel="noopener noreferrer">Pre-workshop survey</a> </td> </tr>
-      <tr> <td>09:00</td>  <td>Automating Tasks with the Unix Shell</td> </tr>
-      <tr> <td>10:30</td>  <td>Morning break</td> </tr>
-      <tr> <td>11:00</td>  <td>Automating Tasks with the Unix Shell (Continued)</td> </tr>
-      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      {% if site.flavor == "r" %}
-      <tr> <td>13:00</td>  <td>Building Programs with R</td> </tr>
-      <tr> <td>14:30</td>  <td>Afternoon break</td> </tr>
-      <tr> <td>15:00</td>  <td>Building Programs with R (Continued)</td> </tr>
-      {% elsif site.flavor == "python" %}
-      <tr> <td>13:00</td>  <td>Building Programs with Python</td> </tr>
-      <tr> <td>14:30</td>  <td>Afternoon break</td> </tr>
-      <tr> <td>15:00</td>  <td>Building Programs with Python (Continued)</td> </tr>
-      {% else %}
-      {% include warning-flavor.html %}
-      {% endif %}
-      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
-      <tr> <td>16:30</td>  <td>END</td> </tr>
     </table>
   </div>
   <div class="col-md-6">

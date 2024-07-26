@@ -4,7 +4,7 @@ layout: workshop      # DON'T CHANGE THIS.
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
 venue: "ICR Online - teams"        
-address: "Teams"
+address: "online"
 country: "uk"
 language: "en"
 latitude: "51"        # Sutton and Chelsea = 51/0
